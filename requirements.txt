@@ -1,0 +1,22 @@
+# CPDM minimal pinned requirements
+# Python: 3.12 recommended.
+# Note: PyTorch / torchvision CUDA wheels are installed separately from
+# requirements-torch-cu128.txt to avoid CUDA-index resolution issues.
+
+numpy==2.0.2
+pandas==2.2.2
+matplotlib==3.10.0
+Pillow==11.3.0
+tqdm==4.67.3
+scipy==1.16.3
+tensorflow==2.20.0
+open_clip_torch==3.3.0
+transformers==5.0.0
+scikit-learn==1.6.1
+
+# Optional / utility packages
+accelerate==1.13.0
+sentencepiece==0.2.1
+ftfy==6.3.1
+regex==2025.11.3
+kaggle==2.0.2

@@ -1,0 +1,6 @@
+# PyTorch CUDA 12.8 wheels 
+# Install this file before requirements.txt. 
+# Do not append "+cu128" to the version numbers when using this index URL. 
+--index-url https://download.pytorch.org/whl/cu128 
+torch==2.11.0 
+torchvision==0.26.0

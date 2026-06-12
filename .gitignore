@@ -1,0 +1,99 @@
+# Python cache / bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+*$py.class
+.Python
+
+# Python build artifacts
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Local environments
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter / Colab
+.ipynb_checkpoints/
+*.ipynb
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+wandb/
+runs/
+tensorboard/
+lightning_logs/
+
+# TensorFlow / Keras checkpoints and weights
+*.h5
+*.weights.h5
+tf_ckpt/
+checkpoint
+*.index
+*.data-*
+
+# Large numpy artifacts
+*.npz
+*.npy
+
+# Released / downloaded artifact archives
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+
+# Local datasets
+data/
+datasets/
+prepared_data/
+raw_data/
+
+# Generated artifacts
+generated/
+
+# Output artifacts
+# Keep only lightweight guides / placeholders in Git.
+outputs/**
+!outputs/
+!outputs/**/
+!outputs/README.md
+!outputs/**/README.md
+!outputs/.gitkeep
+!outputs/*/.gitkeep
+!outputs/*/*/.gitkeep
+!outputs/*/*/*/.gitkeep
+
+# Reproduction outputs
+# Generated samples should not be committed.
+reproduction/**
+!reproduction/
+!reproduction/**/
+!reproduction/**/README.md
+!reproduction/**/.gitkeep
+
+# Temporary folders
+tmp/
+temp/
+artifacts_tmp/
+zip_test/
+cpdm_zip_test/
